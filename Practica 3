@@ -1,0 +1,17 @@
+Algoritmo Práctica3
+	Escribir "Hola bienvenido al consultorio"
+	Escribir "¿Cuál es tu nombre?:"
+	Leer nombre
+	Escribir "¿Que día naciste?:"
+  Leer dia
+  Escribir "¿Qué mes?:"
+	Leer mes
+	Escribir "¿Qué año?:"
+  Leer año
+	Escribir "¿Cuál es el motivo de su consulta?:"
+	Leer motivo
+	Escribir "Sexo ", sexo
+	Escribir "Nombre ", nombre, " ", apellido, " 
+	Escribir "Fecha de nacimiento ", dia, " ", "de ", mes, " ", "del ", año
+	Escribir "Motivo de consulta ", motivo
+FinAlgoritmo
