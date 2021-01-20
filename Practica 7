@@ -1,0 +1,66 @@
+#include <iostream>
+#include<string>
+#include<locale.h>
+#include<locale>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "spanish");
+
+    string titulo[5] = { "", "", "", "", "" };
+    int año[5] = { 0, 0, 0, 0, 0 };
+    string autor[5] = { "", "", "", "", "" };
+
+    cout << "En este programa podras enlistar tus 5 libros favoritos." << endl << endl;
+    cout << "Ingresa el título del primer libro: ";
+    cin.ignore();
+    getline(cin, titulo[0]);
+    cout << "Ingresa el año de publicación: "; cin >> año[0];
+    cout << "Ingresa el nombre del autor: ";
+    cin.ignore();
+    getline(cin, autor[0]);
+    cout << endl;
+    cout << "Ingresa el título del segundo libro: ";
+    cin.ignore();
+    getline(cin, titulo[1]);
+    cout << "Ingresa el año de publicación: "; cin >> año[0];
+    cout << "Ingresa el nombre del autor: ";
+    cin.ignore();
+    getline(cin, autor[1]);
+    cout << endl;
+    cout << "Ingresa el título del tercer libro: ";
+    cin.ignore();
+    getline(cin, titulo[2]);
+    cout << "Ingresa el año de publicación: "; cin >> año[0];
+    cout << "Ingresa el nombre del autor: ";
+    cin.ignore();
+    getline(cin, autor[2]);
+    cout << endl;
+    cout << "Ingresa el título del cuarto libro: ";
+    cin.ignore();
+    getline(cin, titulo[3]);
+    cout << "Ingresa el año de publicación: "; cin >> año[0];
+    cout << "Ingresa el nombre del autor: ";
+    cin.ignore();
+    getline(cin, autor[3]);
+    cout << endl;
+    cout << "Ingresa el título del quinto libro: ";
+    cin.ignore();
+    getline(cin, titulo[4]);
+    cout << "Ingresa el año de publicación: "; cin >> año[0];
+    cout << "Ingresa el nombre del autor: ";
+    cin.ignore();
+    getline(cin, autor[4]);
+    cout << endl;
+
+    cout << titulo[0];
+
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Libro " << i + 1 << ": " << titulo[i] << endl << "Año: " << año[i] << endl << "Autor: " << autor[i] << endl << endl;
+    }
+
+    return 0;
+}
