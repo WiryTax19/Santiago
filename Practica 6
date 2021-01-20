@@ -1,0 +1,850 @@
+Algoritmo Pokemo
+	Segun 'Que Pokemon quieres?'  Hacer
+		'Charmander (Fuego)':
+			Escribir 'Un Scuirtle salvaje aparece!'
+			Escribir 'Que deberia hacer Charmander?'
+			Si Arañazo O Gruñido Entonces
+				Escribir 'Bajaste la defensa a Scuirtle'
+				Escribir 'Scuirtle te baja la defensa'
+				Escribir 'Que deberia hacer Charmander?'
+				Si Arañazo O Gruñido Entonces
+					Escribir 'Bajaste la defensa a Scuirtle'
+					Escribir 'Scuirtle te baja la defensa'
+					Escribir 'Que deberia hacer Charmander ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Scuirtle'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				SiNo
+					Escribir 'Bajaste 5 Ps al enemigo'
+					Escribir 'Scuirtle te baja la defensa'
+					Escribir 'Que deberia hacer Charmander ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Scuirtle'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			SiNo
+				Escribir 'Bajaste 5 Ps al enemigo'
+				Escribir 'Scuirtle te baja la defensa'
+				Escribir 'Que deberia hacer Charmander ahora?'
+				Si Arañazo O Gruñido Entonces
+					Escribir 'Bajaste la defensa a Scuirtle'
+					Escribir 'Scuirtle te baja la defensa'
+					Escribir 'Que deberia hacer Charmander ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Scuirtle'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle enemigo te ha debilitado'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue derrotado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'El Scuirtle enemigo te baja 13 Ps'
+							Escribir 'Que deberia hacer Charmander Ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle enemigo te ha debilitado'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue debilitado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja la defensa'
+							Escribir 'Que debeira hacer Charmander?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle enemigo te ha debilitado'
+								Escribir 'Corres al Centro pokemon mas Cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es superefiacaz'
+								Escribir 'El Scuirtle enemigo fue debilitado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				SiNo
+					Escribir 'Bajaste 5 Ps al enemigo'
+					Escribir 'El Scuirtle te baja la defensa'
+					Escribir 'Que deberia hacer Charmander ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Scuirtle'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja 13 Ps'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle enemigo te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Scuirtle enemigo fue debilitado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja 13 Ps'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle enemigo te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Scuirtle enemigo fue debiitado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Scuirtle te baja la defensa'
+						Escribir 'Que deberia hacer Charmander ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Scuirtle'
+							Escribir 'Scuirtle te baja 13 Ps'
+							Escribir 'Que deberia hacer Charmander ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Scuirtle enemigo fue debilitado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Scuirtle te baja 13 Ps'
+							Escribir 'El enemigo esta debil vamos Charmander!'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Scuirtle'
+								Escribir 'El Scuirtle te debilitó'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Scuirtle enemigo fue debilitado'
+								Escribir 'Charmander ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		'Scuirtle (Agua)':
+			Escribir 'Un Bulbasaur salvaje aparece!'
+			Escribir 'Que deberia hacer Scuirtle?'
+			Si Arañazo O Gruñido Entonces
+				Escribir 'Bajaste la defensa a Bulbasaur'
+				Escribir 'Bulbasaur te baja la defensa'
+				Escribir 'Que deberia hacer Scuirtle?'
+				Si Arañazo O Gruñido Entonces
+					Escribir 'Bajaste la defensa a Bulbasaur'
+					Escribir 'Bulbasaur te baja la defensa'
+					Escribir 'Que deberia hacer Scuirtle ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Bulbasaur'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				SiNo
+					Escribir 'Bajaste 5 Ps al enemigo'
+					Escribir 'Bulbasaur te baja la defensa'
+					Escribir 'Que deberia hacer Scuirtle ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Bulbasaur'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			SiNo
+				Escribir 'Bajaste 5 Ps al enemigo'
+				Escribir 'Bulbasaur te baja la defensa'
+				Escribir 'Que deberia hacer Scuirtle ahora?'
+				Si Arañazo O Gruñido Entonces
+					Escribir 'Bajaste la defensa a Bulbasaur'
+					Escribir 'Bulbasaur te baja la defensa'
+					Escribir 'Que deberia hacer Scuirtle ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Bulbasaur'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur enemigo te ha debilitado'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue derrotado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'El Bulbasaur enemigo te baja 13 Ps'
+							Escribir 'Que deberia hacer Scuirtle Ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur enemigo te ha debilitado'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue debilitado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja la defensa'
+							Escribir 'Que debeira hacer Scuirtle?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur enemigo te ha debilitado'
+								Escribir 'Corres al Centro pokemon mas Cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es superefiacaz'
+								Escribir 'El Bulbasaur enemigo fue debilitado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				SiNo
+					Escribir 'Bajaste 5 Ps al enemigo'
+					Escribir 'El Bulbasaur te baja la defensa'
+					Escribir 'Que deberia hacer Scuirtle ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Bulbasaur'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja 13 Ps'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur enemigo te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Bulbasaur enemigo fue debilitado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja 13 Ps'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur enemigo te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Bulbasaur enemigo fue debiitado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Bulbasaur te baja la defensa'
+						Escribir 'Que deberia hacer Scuirtle ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Bulbasaur'
+							Escribir 'Bulbasaur te baja 13 Ps'
+							Escribir 'Que deberia hacer Scuirtle ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Bulbasaur enemigo fue debilitado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Bulbasaur te baja 13 Ps'
+							Escribir 'El enemigo esta debil vamos Scuirtle!'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Bulbasaur'
+								Escribir 'El Bulbasaur te debilitó'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Bulbasaur enemigo fue debilitado'
+								Escribir 'Scuirtle ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		'Bulbasaur (Planta)':
+			Escribir 'Un Charmander salvaje aparece'
+			Escribir 'Que deberia hacer Bulbasaur?'
+			Si Arañazo O Gruñido Entonces
+				Escribir 'Bajaste la defensa a Charmander'
+				Escribir 'Charmander te baja la defensa'
+				Escribir 'Que deberia hacer Bulbasaur?'
+				Si Arañazo O Gruñido Entonces
+					Escribir 'Bajaste la defensa a Charmander'
+					Escribir 'Charmander te baja la defensa'
+					Escribir 'Que deberia hacer Bulbasaur ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Charmander'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				SiNo
+					Escribir 'Bajaste 5 Ps al enemigo'
+					Escribir 'Charmander te baja la defensa'
+					Escribir 'Que deberia hacer Bulbasaur ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Charmander'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			SiNo
+				Escribir 'Bajaste 5 Ps al enemigo'
+				Escribir 'Charmander te baja la defensa'
+				Escribir 'Que deberia hacer Bulbasaur ahora?'
+				Si Arañazo O Gruñido Entonces
+					Escribir 'Bajaste la defensa a Charmander'
+					Escribir 'Charmander te baja la defensa'
+					Escribir 'Que deberia hacer Bulbasaur ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Charmander'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander enemigo te ha debilitado'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue derrotado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'El Charmander enemigo te baja 13 Ps'
+							Escribir 'Que deberia hacer Bulbasaur Ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander enemigo te ha debilitado'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue debilitado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja la defensa'
+							Escribir 'Que debeira hacer Bulbasaur?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander enemigo te ha debilitado'
+								Escribir 'Corres al Centro pokemon mas Cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es superefiacaz'
+								Escribir 'El Charmander enemigo fue debilitado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				SiNo
+					Escribir 'Bajaste 5 Ps al enemigo'
+					Escribir 'El Charmander te baja la defensa'
+					Escribir 'Que deberia hacer Bulbasaur ahora?'
+					Si Arañazo O Gruñido Entonces
+						Escribir 'Bajaste la defensa a Charmander'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja 13 Ps'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander enemigo te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz'
+								Escribir 'El Charmander enemigo fue debilitado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja 13 Ps'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander enemigo te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Charmander enemigo fue debiitado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					SiNo
+						Escribir 'Bajaste 5 Ps al enemigo'
+						Escribir 'Charmander te baja la defensa'
+						Escribir 'Que deberia hacer Bulbasaur ahora?'
+						Si Arañazo O Gruñido Entonces
+							Escribir 'Bajaste la defensa a Charmander'
+							Escribir 'Charmander te baja 13 Ps'
+							Escribir 'Que deberia hacer Bulbasaur ahora?'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilito'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus Pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Charmander enemigo fue debilitado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						SiNo
+							Escribir 'Bajaste 5 Ps al enemigo'
+							Escribir 'Charmander te baja 13 Ps'
+							Escribir 'El enemigo esta debil vamos Bulbasaur!'
+							Si Arañazo O Gruñido Entonces
+								Escribir 'Bajaste la defensa a Charmander'
+								Escribir 'El Charmander te debilitó'
+								Escribir 'Corres al Centro Pokemon mas cercano a curar a tus pokemon'
+							SiNo
+								Escribir 'Es Supereficaz!'
+								Escribir 'El Charmander enemigo fue debilitado'
+								Escribir 'Bulbasaur ha subido a nivel 6!'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+	FinSegun
+FinAlgoritmo
