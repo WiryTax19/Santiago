@@ -1,0 +1,66 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int entero, dato1 = 5;
+	char letra, dato2 = 'f';
+	float decimal, dato3 = 1.5;
+	double doble, dato4 = 5500;
+	string nombre, dato5 = "frida";
+	cout << "Hola, vamos a ingresar diferentes tipos de datos con valor asignado y haremos que el programa verifique si es correcto o incorrecto." << endl;
+	cout << "Los valores son int = 5, char = f, float = 1.5, double = 5500 y string = frida" << endl;
+	cout << "Ingresa el valor de int: " << endl;
+	cin >> entero;
+	if (entero == dato1) {
+		cout << "El valor es correcto" << endl;
+	}
+	else {
+		cout << "El valor es incorrecto" << endl;
+	}
+
+	cout << "Ingresa el valor de char: " << endl;
+	cin >> letra;
+
+	if (letra == dato2) {
+		cout << "El valor es correcto" << endl;
+	}
+	else {
+		cout << "El valor es incorrecto" << endl;
+	}
+
+	cout << "Ingresa el valor de float: " << endl;
+	cin >> decimal;
+
+	if (decimal == dato3) {
+		cout << "El valor es correcto" << endl;
+	}
+	else {
+		cout << "El valor es incorrecto" << endl;
+	}
+
+	cout << "Ingresa el valor de double: " << endl;
+	cin >> doble;
+
+	if (doble == dato4) {
+		cout << "El valor es correcto" << endl;
+	}
+	else {
+		cout << "El valor es incorrecto" << endl;
+	}
+
+	cout << "Ingresa el valor de string: " << endl;
+	cin >> nombre;
+
+	if (nombre == dato5) {
+		cout << "El valor es correcto" << endl;
+	}
+	else {
+		cout << "El valor es incorrecto" << endl;
+	}
+	cout << "Ya acabaste! Gracias por usar el programa:)" << endl;
+
+	return 0;
+}
+}
