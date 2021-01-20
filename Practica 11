@@ -1,0 +1,262 @@
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+int main()
+{
+	char name[50];
+	int D1;
+	int D2;
+	int D3;
+	int D4;
+	int D5;
+	cout << "Eres sensible a la fuerza! La pregunta es..." << endl;
+	cout << "Si pudieras elegir entre ser un Jedi o un Sith que elegirias?" << endl;
+	cout << "Presiona 1 para elegir el camino de la luz" << endl;
+	cout << "Presiona 2 para elegir el camino de la obscuridad" << endl;
+	cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+	cin >> D1 ;
+	//D1
+	if (D1 == 1)
+	{
+		//Camino de la Luz! (Si D1 es = a 1)
+		cout << "Entonces decidiste ser un Jedi!" << endl;
+		cout << "Que maestro te gustaria que te enseñe?" << endl;
+		cout << "Presiona 1 para elegir a Anakin como maestro" << endl;
+		cout << "Presiona 2 para elegir a Obi-Wan como maestro" << endl;
+		cout << "-----------------------Elige alguno de los dos maestros---------------------" << endl;
+		cin >> D2;
+		//D2
+		if (D2 == 1)
+		{
+			//Ejecuta si d2 = a 1
+			cout << "Parece que Anakin sera tu maestro, por lo tanto seras muy habilidoso tanto en el uso de la fuerza..." << endl;
+			cout << " Como con el sable de luz... el problema es que seras un poco descuidado." << endl;
+			cout << "Al crecer el consejo te da tu primer tarea... en ella te encuentras con Conde Douku" << endl;
+			cout << "Presiona 1 para enfrentarlo" << endl;
+			cout << "Presiona 2 para escapar" << endl;
+			cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+			cin >> D3;
+			//D3
+			if (D3 == 1)
+			{
+				//Ejecuta si d3 = a 1
+				cout << "Decides enfrentarlo, sacas tu sable de luz y empieza el combate" << endl;
+				cout << "A medida que avanza el combate empiezas a sentirte Cansado y Douku tiene obvia superioridad del combate" << endl;
+				cout << "Douku se distrae por la llegada de Anakin al lugar y tienes la oportunidad de hacer algo" << endl;
+				cout << "Presiona 1 para desarmarlo" << endl;
+				cout << "Presiona 2 para escapar mientras esta distraido" << endl;
+				cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+				cin >> D4;
+				//D4
+				if (D4 == 1)
+				{
+					//Ejecuta si d4 = a 1
+					cout << "Decides desarmarlo, pero al momento de hacerlo Douku te agarra desprevenido y te lanza con sus rayos" << endl;
+					cout << "Anakin al ver lo debil que estas decide pelear con el y lo derrota" << endl;
+					cout << "Eres llevado a la enfermeria y Douku muere a manos de tu maestro, dando fin a la guerra de los clones" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+					//D4
+
+				}
+				else if (D4 == 2)
+				{
+					//Ejecuta si D4 = a 2
+					cout << "Al escapar consigues infomracion sobre el nuevo plan de Douku que sera secuestrar al cansiller" << endl;
+					cout << "informacion que le sera muy util al consejo, al regresar se te felicita por conseguir esos datos y se te manda a descansar." << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				}
+			}
+			else if (D3 == 2)
+			{
+				//Ejecuta si D3 = a 2
+				cout << "Eliges escapar, Douku manda a su aprendiz tras de ti" << endl;
+				cout << "te encuentras acorralado y en necesidad de pelear contra su aprendiz Asajj Ventress" << endl;
+				cout << "Ella saca su sable de luz al igual que tu" << endl;
+				cout << "Presiona 1 para atacarla" << endl;
+				cout << "Presiona 2 para usar la fuerza" << endl;
+				cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+				cin >> D4;
+				if (D4 == 1)
+				{
+					//Ejecuta si D4 = a 1
+					cout << "La atacas usando todo lo que te enseño tu maestro logrando vencerla" << endl;
+					cout << "Su aprendiz antes de morir te revela que Palpatine es un lord sith" << endl;
+					cout << "Logras llegar a tu nave y regresar con el Consejo con la informacion que te dio Asajj Ventress" << endl;
+					cout << "El consejo derrota a Palpatine y los Sith Lords se extinguen" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D4;
+				}
+				else if (D4 == 2)
+				{
+					//Ejecuta si D4 = a 2
+					cout << "Al usar la fuerza la empujas dejandola muy debil" << endl;
+					cout << "Se intenta escapar pero no la dejas y al casi matarla te revela que Palpatine es un Sith dejandote conmosionado" << endl;
+					cout << "Ella se va aprovechando que te distrajo, tu regresas con el consejo dando la informacion que te dijo Asajj Ventress" << endl;
+					cout << "Palpatine es derrotado y tu mandado a descansar pero sabiendo que los Siths siguen existiendo" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D4;
+				}
+			}
+		}
+		else if (D2 == 2)
+		{
+			//Ejecuta si d2 = a 2
+			cout << "Entonces elegiste a Obi-Wan de maestro, sabras de como ganar cualquier combate aun sin ser el mejor en pelea" << endl;
+			cout << "Creces y el consejo le da a tu maestro y a ti una tarea, ir tras el rastro de Darth Maul" << endl;
+			cout << "Al llegar al planeta tu nave es derrivada por el Lord Sith y tu maestro queda inconsiente" << endl;
+			cout << "El Lord Sith con ganas de vengarse de tu maestro busca matarlo, quedas tu en su camino... que haras?" << endl;
+			cout << "Presiona 1 para sacar el sable de luz" << endl;
+			cout << "Presiona 2 para intentar despertar a tu maestro" << endl;
+			cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+			cin >> D3;
+			if (D3 == 1)
+			{
+				//Ejecuta si D3 = a 1
+				cout << "Sacas el sable dando inicio a una pelea larga en la cual inicias perdiendo pero" << endl;
+				cout << "conforme avanza el cobate empiezas a tener superioridad" << endl;
+				cout << "Estas por derrotarlo cuando empiezas a sentir otra presencia... es Savage Opress!" << endl;
+				cout << "Tu maestro por fin despierta asi que no estaras solo" << endl;
+				cout << "Presiona 1 para pelear con Maul" << endl;
+				cout << "Presiona 2 para pelear con Savage" << endl;
+				cout << "-----------------------Elige alguno de los dos contrincantes---------------------" << endl;
+				cin >> D4;
+				if (D4 == 1)
+				{
+					//Ejecuta si D4 = a 1
+					cout << "Empiezas a pelear con Maul, ya que conoces todos sus movimientos lo vences facilmente y lo dejas inconsiente" << endl;
+					cout << "Obi-Wan empieza a tener problemas con Savage asi que decides ayudarlo logrando vencerlo entre los dos" << endl;
+					cout << "Al voltear Maul desaparece... ustedes deciden regresar a Cousant con Savage capturado" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				}
+				else if (D4 == 2)
+				{
+					//Ejecuta si D4 = a 2
+					cout << "Empiezas a pelear contra Savage, el cual es implacable, casi al punto de derrotarte Obi-Wan te hace para atras peleando contra ambos" << endl;
+					cout << "Mientras estas recuperandote Obi-Wan le corta la cabeza a Savage quedando solo Maul" << endl;
+					cout << "Al levantarte logran vencer juntos a Maul llevandoselo a Coursant capturado" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				}
+			}
+			else if (D3 == 2)
+			{
+				//Ejecuta si D3 = a 2
+				cout << "Intentas despertar a tu maestro sin exito, asi que decides pedir ayuda a la republica" << endl;
+				cout << "Mientras intentas despertarlo tu adversario se acerca por lo que tendras que pelear contra el" << endl;
+				cout << "Lo contienes lo suficiente para aprender sus movimientos, haciendote mas facil el combate" << endl;
+				cout << "Presiona 1 para empujarlo con la fuerza" << endl;
+				cout << "Presiona 2 para continuar con el sable de luz" << endl;
+				cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+				cin >> D4;
+				if (D4 == 1)
+				{
+					//Ejecuta si D4 = a 1
+					cout << "Lo empujas con la fuerza dejandolo sin sable e inconsiente" << endl;
+					cout << "Llega la ayuda de la Republica, llevan a Obi-Wan a la enfermeria y Maul es capturado" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				}
+				else if (D4 == 2)
+				{
+					//Ejecuta si D4 = a 2
+					cout << "Pelas con fuerza para derrotar a Maul y justo cuando lo desarmas llega un crucero de la republica" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				}
+			}
+		}
+	}
+	else
+	{
+		//Camino de la oscuridad (Si D1 es = a 2)
+		cout << "Entonces seras un Lord Sith... interesante... El odio te consume pero no seras nada sin entrenamiento... " << endl;
+		cout << "Darth Sidius te toma como aprendiz haciendo que tus poderes crezcan muchisimo con el tiempo." << endl;
+		cout << "Cuando creces tanto en poder como en edad, Sidius te encomienda tu primer tarea... matar a un jedi" << endl;
+		cout << "Te da la ubicacion de un jedi asi que vas tras el... Al llegar te encuentras con Ashoka Tano" << endl;
+		cout << "Presiona 1 para pelear con ella" << endl;
+		cout << "Presiona 2 para seguirla" << endl;
+		cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+		cin >> D2;
+		switch (D2)
+		{
+		case 1:
+			//Ejecutarse si la D2 es = a 1
+			cout << "Decides pelear con ela justo donde estan, te acercas y sacas tu sable de luz al igual que ella." << endl;
+			cout << "Mientras avanza la pelea, Ashoka empieza a tener suoperioridad ya que tiene mucho mas experiencia" << endl;
+			cout << "Casi a punto de tu drrrota Ashoka comete un error... dejarte vivir" << endl;
+			cout << "Presiona 1 intentar vencerla" << endl;
+			cout << "Presiona 2 para preguntar porque no te mata" << endl;
+			cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+			cin >> D3;
+			switch (D3)
+			{
+			case 1:
+				//Ejecuta si la D3 es = a 1
+				cout << "Al intentar atacarla ella te desarma cortandote un brazo y te deja incapaz de seguir con la pelea" << endl;
+				cout << "Al regresar con Sidius te da un brazo robotico y tu quedas con odio y ganas de venganza contra Ashoka Tano" << endl;
+				cout << "-----------------------Fin---------------------" << endl;
+				cin >> D4;
+			case 2:
+				//Ejecuta si la D3 es = a 2
+				cout << "Al preguntarle porque no te mato ella te contesta que cada vida es preciada, aun siendo un lord Sith" << endl;
+				cout << "Te deja vivir y tu regresas con tu maestro pero recordando lo que te dijo Ashoka" << endl;
+				cout << "Al recapacitar te das cuenta que estas en mal camino... dejando a los Sith sales en busca de una vida nueva" << endl;
+				cout << "-----------------------Fin---------------------" << endl;
+				cin >> D4;
+			}
+			break;
+		case 2:
+			//Ejecutarse si la D2 es = a 2
+			cout << "Decides seguira para ver que hará y poder tener un poco de ventaja" << endl;
+			cout << "En un rato se detiene... Ashoka empieza a sentir tu presencia" << endl;
+			cout << "Presiona 1 para revelarse ante ella" << endl;
+			cout << "Presiona 2 para seguir oculto" << endl;
+			cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+			cin >> D3;
+			switch (D3)
+			{
+			case 1:
+				//Ejecutarse si la D3 es = a 1
+				cout << "Te revelas ante ela, sacas tu sable de luz pero ella no responde" << endl;
+				cout << "Te dice que mejor te vayas ya que tu enemigo es en realidad tu maestro" << endl;
+				cout << "Quedas confundido por sus palabras y ella sigue su camino hasta un templo en el cual no podras entrar ya que esta lleno de jedis" << endl;
+				cout << "Regresas con Sidius pensando en las palabras de Ashoka poniendote en conflicto... deberias atacar a tu maestro? O seguir sirviendole" << endl;
+				cout << "Presiona 1 para Atacar a Sidius" << endl;
+				cout << "Presiona 2 para seguir con el" << endl;
+				cout << "-----------------------Elige alguno de los dos caminos---------------------" << endl;
+				cin >> D4;
+				switch (D4)
+				{
+				case 1:
+					//Ejecutarse si D4 es = a 1
+					cout << "Atacas a Sidius agarrandolo desprevenido y logras vencerlo con facilidad" << endl;
+					cout << "Te cuestionas el como vives, cambiando tu metodo de vida y empiezas a buscar la luz" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				case 2:
+					//Ejecutarse si D4 es = a 2
+					cout << "Decides quedarte con el pero sigues pensando en las palabras de Ashoka" << endl;
+					cout << "-----------------------Fin---------------------" << endl;
+					cin >> D5;
+				}
+			case 2:
+				//Ejecutarse di la D3 es = a 2
+				cout << "La sigues hasta que ella entra a un templo Jedi al cual no podras entrar" << endl;
+				cout << "Al regresar con tu maestro el se nota disgustado ya que no hiciste lo que te pidio" << endl;
+				cout << "-----------------------Fin---------------------" << endl;
+				cin >> D4;
+			}
+			break;
+		}
+
+	}
+
+
+	cout << "Estas fuera de la historia" << endl;
+	return main();
+}
